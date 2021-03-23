@@ -1,0 +1,103 @@
+/*
+ÍNDICE:
+
+1.- SALTO DE LÍNEA Y COSAS CON MEDIA QUERY
+
+2.- COLORES
+
+3.- NAV Y LINKS
+
+4.- Chart
+
+*/
+
+
+/*1.-*/
+@media screen and (min-width:300px)
+{
+    .SDL-in{height:60px}
+    .color2
+    {
+        background-color: #2d2e2e;
+        height: 250px;
+    }
+    .me
+    {
+        border-radius: 50%;
+        width: 11rem;
+        height: 11rem;
+    }
+}
+@media screen and (min-width:992px)
+{
+    .SDL-md{
+        height:68px!important
+    }
+    .color2
+    {
+        background-color: #2b2c2c;
+        height: 300px;
+    }
+    .me
+    {
+        border-radius: 50%;
+        width: 14rem;
+        height: 14rem;
+    }
+}
+
+/*2.-*/
+.color
+{
+    background-color: #2d2e2e;
+}
+.bg-modified
+{
+    background-color: #444646;
+}
+
+/*3.-*/
+.a{
+    text-decoration: none !important;
+    padding: 10px 20px !important;
+    font-size: 1em !important;
+}
+.a:hover
+{
+    color: #ffc107 !important;
+    text-decoration: none !important;
+
+    transition: all 0.2s ease-out !important;
+
+    font-size: 1.05em !important;
+}
+#active
+{
+    color: #ffc107 !important;
+    border-bottom: 4px solid #ffc107 !important;
+    border-radius: 20% 0% 40% 0% !important;
+    background-color: #ffffff !important;
+    font-size: 1.1em !important;
+    transition: all 0.4s ease-out !important;
+}
+
+/*4.-*/
+@media screen and (min-width:300px)
+{
+    .chart-options
+    {
+        position: relative; height:40vh; width:95vw
+    }
+}
+@media screen and (min-width:992px)
+{
+    .chart-options
+    {
+        position: relative; height:100vh; width:95vw
+    }
+}
+
+.prueba
+{
+    height: 100vh;
+}
